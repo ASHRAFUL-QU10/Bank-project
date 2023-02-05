@@ -8,7 +8,7 @@ const fadeElems = document.querySelectorAll('.has-fade');
 btnHamburger.addEventListener('click', function(){
   console.log('click hamburger');
 
-  if(header.classList.contains('open')){ // Close Hamburger Menu
+  if(header.classList.contains('open')){ //Close Hamburger Menu
     body.classList.remove('noscroll');
     header.classList.remove('open');    
     fadeElems.forEach(function(element){
